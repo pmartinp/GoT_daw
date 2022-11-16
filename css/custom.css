@@ -1,0 +1,26 @@
+:root {
+  /* Colores primario y secundario personalizados*/
+  --bs-primary: #a42613;
+  --bs-secondary: #282828;
+  --bs-primary-rgb: 164, 38, 19;
+  --bs-secondary-rgb: 40, 40, 40;
+}
+
+@font-face {
+  font-family: "font-GOT";
+  src: url(../font/GameOfThrones.ttf);
+}
+
+.fontTitle {
+  color: white;
+  font-family: "font-GOT";
+}
+
+.fontMenu {
+  color: white;
+  font-family: "font-GOT";
+  font-size: 0.8em;
+}
+.fontMenu:hover, .fontMenu:focus {
+  color: var(--bs-primary);
+}
