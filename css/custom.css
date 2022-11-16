@@ -11,8 +11,7 @@
   src: url(../font/GameOfThrones.ttf);
 }
 
-.fontTitle {
-  color: white;
+.fontGOT{
   font-family: "font-GOT";
 }
 
@@ -23,4 +22,13 @@
 }
 .fontMenu:hover, .fontMenu:focus {
   color: var(--bs-primary);
+}
+
+.index-house-text{
+  z-index: 100;
+}
+
+.text-GOT{
+  font-family: "font-GOT";
+  font-size: 0.6em;
 }
