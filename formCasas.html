@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link fontMenu" href="#">Westeros</a>
+              <a class="nav-link fontMenu" href="#">Tu &nbsp;Destino</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -64,7 +64,7 @@
 
     <!--Formulario-->
     <div class="container-fluid p-5 bg-form vh-80">
-      <form class="container">
+      <form class="container needs-validation" >
         <h2 class="text-white text-center fontGOT">descubre tu casa</h2>
         <br><br>
         <!--Nombre-->
@@ -73,12 +73,17 @@
           <div class="col-7">
             <input
               type="text"
+              maxlength="30"
               class="form-control"
               name="inputName"
               id="inputName"
               placeholder="Nombre"
               onchange="comprobarNombre()"
+              required
             />
+            <div class="invalid-feedback">
+              Solo se permiten carácteres
+            </div>
           </div>
         </div>
         <!--Rango de Temperatura-->
@@ -216,10 +221,14 @@
         <br>
         <div class="mb-3 row">
           <div class="offset-sm-5 col-sm-7">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary" onclick="mostrarCasa()">Enviar</button>
           </div>
         </div>
       </form>
+
+      <div class="container">
+        <p class="fontGOT text-white text-center" id="eleccionCasa"></p>
+      </div>
     </div>
 
     <!-- Footer -->
