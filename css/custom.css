@@ -37,3 +37,7 @@
   background-image: url("../img/fondoFormulario.jpg");
   background-repeat: repeat;
 }
+
+.h-100vw{
+  height: 100vh;
+}
