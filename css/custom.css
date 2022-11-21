@@ -32,3 +32,8 @@
   font-family: "font-GOT";
   font-size: 0.6em;
 }
+
+.bg-form{
+  background-image: url("../img/fondoFormulario.jpg");
+  background-repeat: repeat;
+}
