@@ -31,7 +31,7 @@ function validateMyForm(){
 function mostrarCasa() {
   let nombre = document.getElementById("inputName").value;
   let parrafo = document.getElementById("eleccionCasa");
-  parrafo.innerText = nombre + " has sido elegido por la Casa " + elegirCasa() + " preparate para la guerra";
+  parrafo.innerText = nombre + " has sido elegido por la Casa " + elegirCasa() + ", preparate para la guerra";
 }
 
 function elegirCasa(){
